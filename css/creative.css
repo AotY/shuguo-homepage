@@ -80,6 +80,18 @@ img::-moz-selection {
   background: transparent;
 }
 
+footer {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #F05F40;
+  font-weight: 200;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  font-size: 0.65rem;
+  color: #fff;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -164,6 +176,12 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #F05F40;
   }
+}
+
+.img-recruit {
+  max-width: 60%;
+  height: auto;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 header.masthead {
@@ -283,6 +301,27 @@ header.masthead p {
 
 .text-primary {
   color: #F05F40 !important;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-item {
+  color: #cccccc;
+  font-weight: 400;
+  font-size: .90rem;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  color: #F05F40;
+}
+
+.dropdown-item.active {
+  background-color: #F05F40;
+  color: #FFFFFF;
 }
 
 .btn {

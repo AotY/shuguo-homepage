@@ -77,3 +77,15 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+footer {
+  @include serif-font;
+  background-color: $primary;
+  font-weight: 200;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  font-size: 0.65rem;
+  color: $white;
+}

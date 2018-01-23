@@ -3,6 +3,29 @@
   color: $primary !important;
 }
 
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-item {
+  color: #cccccc;
+  font-weight: 400;
+  font-size: .90rem;
+
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  color: $primary;
+
+}
+
+.dropdown-item.active {
+  background-color: $primary;
+  color: #FFFFFF;
+}
+
 .btn {
   font-weight: 700;
   text-transform: uppercase;
